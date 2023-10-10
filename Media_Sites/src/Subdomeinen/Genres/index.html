@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verspellers</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="../../Images/TechCode_Icon.ico">
+    </head>
+    <body>
+        <input type="image" src="../../Images/Logo_Tijdverspellers.png" id="Logo">
+        <input type="image" src="../../Images/Closing_Image.png" onclick="window.location.replace('../../../index.html')" id="ClossingButton">
+        <div class="MainScreen">
+            <div class="Colomn1">
+                <div class="Genre" id="Genre1">
+                    <h1 class="GenreTitle">Woorden</h1>
+                    <input type="image" src="" onclick="SetGenre('Woorden')">
+                </div>
+                <div class="Genre" id="Genre3">
+                    <h1 class="GenreTitle">De kleintjes (3 - 6)</h1>
+                    <input type="image" src="" onclick="SetGenre('De_kleintjes')">
+                </div>
+                <div class="Genre" id="Genre5">
+                    <h1 class="GenreTitle">Tieners (13 - 18)</h1>
+                    <input type="image" src="" onclick="SetGenre('Tieners')">
+                </div>
+                <div class="Genre" id="Genre7">
+                    <h1 class="GenreTitle">Volwassenen <br> (21 - 65)</h1>
+                    <input type="image" src="" onclick="SetGenre('Volwassenen')">
+                </div>
+            </div>
+            <div class="Colomn2">
+                <div class="Genre" id="Genre2">
+                    <h1 class="GenreTitle">Getallen</h1>
+                    <input type="image" src="" onclick="SetGenre('Getallen')">
+                </div>
+                <div class="Genre" id="Genre4">
+                    <h1 class="GenreTitle">Kinderen (6 - 13)</h1>
+                    <input type="image" src="" onclick="SetGenre('Kinderen')">
+                </div>
+                <div class="Genre" id="Genre6">
+                    <h1 class="GenreTitle">Jongeren (18 - 21)</h1>
+                    <input type="image" src="" onclick="SetGenre('Jongeren')">
+                </div>
+                <div class="Genre" id="Genre8">
+                    <h1 class="GenreTitle">Ouderen (65+)</h1>
+                    <input type="image" src="" onclick="SetGenre('Ouderen')">
+                </div>
+            </div>
+        </div>
+        <script type="application/javascript" src="./main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verspellers</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./src/Images/TechCode_Icon.ico">
+    </head>
+    <body>
+        <input type="image" src="./src/Images/Logo_Tijdverspellers.png" id="Logo">
+        <input type="image" src="./src/Images/MenuButton.jpg" onclick="window.location.replace('./src/Subdomeinen/Menu/index.html')" id="MenuHamburger">
+        <div class="GamesScreen">
+            <h1 id="TitleGamescreen">For you!</h1>
+            <div class="GameHokje" id="Game1">
+                <p class="GameTitle">Galgje</p>
+                <input type="image" src="./src/Images/Galgje_Image.png" class="PlayButton" onclick="StartGame('Galgje')">
+            </div>
+            <div class="GameHokje" id="Game2">
+                <p class="GameTitle">Raad het getal</p>
+                <input type="image" src="./src/Images/RaadHetGetal_Image.png" class="PlayButton" onclick="StartGame('RaadHetGetal')">
+            </div>
+        </div>
+        <script type="application/javascript" src="./main.js"></script>
+    </body>
+</html>
